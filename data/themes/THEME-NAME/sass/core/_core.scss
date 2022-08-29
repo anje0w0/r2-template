@@ -248,6 +248,7 @@ th {
   padding: 0;
   text-align: left;
   vertical-align: top;
+  font-feature-settings:palt;
 }
 
 ol {
@@ -285,6 +286,7 @@ address {
   margin: 0;
   padding: 0;
 }
+
 input,
 textarea,
 table,
@@ -294,6 +296,7 @@ tfoot,
 address {
   text-align: left;
 }
+
 div,
 dl,
 dt,
@@ -304,7 +307,10 @@ li,
 form,
 p {
   text-align: inherit;
+  font-feature-settings:palt;
+  text-align:justyfy;
 }
+
 h1,
 h2,
 h3,
